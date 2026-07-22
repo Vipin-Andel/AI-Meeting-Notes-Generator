@@ -73,13 +73,13 @@ with st.sidebar:
     st.markdown("---")
 
     developer_mode = st.checkbox(
-    "🛠 Developer Mode",
-    value=st.session_state.get(
-        "developer_mode",
-        False
-    ),
-    help="Run the application without OpenAI API using sample meeting data."
-)
+        "🛠 Developer Mode",
+        value=st.session_state.get(
+            "developer_mode",
+            False
+        ),
+        help="Run the application without OpenAI API using sample meeting data."
+    )
     st.session_state.developer_mode = developer_mode
 
 # Main application header
@@ -90,7 +90,7 @@ if st.session_state.developer_mode:
     st.info(
         "🛠 Developer Mode is enabled. Sample meeting data is being used instead of OpenAI APIs."
     )
-    
+
 st.caption(
     "Transform meeting audio into structured transcripts, AI-powered summaries, actionable insights, and analytics."
 )
@@ -188,7 +188,7 @@ with layout_col1:
 
         if st.session_state.developer_mode:
 
-           spinner_text = "Loading sample meeting data..."
+            spinner_text = "Loading sample meeting data..."
 
         else:
 
@@ -421,7 +421,6 @@ with layout_col2:
                 "Meeting analytics will appear here after transcription."
             )
 
-show_footer()
 
 # Export and download section
 st.header("3. Download and Save Center")
@@ -496,8 +495,8 @@ with down_col4:
         )
 
         with open(TEMP_PDF_FILE, "rb") as pdf:
-             pdf_bytes = pdf.read()
-             
+            pdf_bytes = pdf.read()
+
         st.download_button(
             label="Save PDF Report (.pdf)",
             data=pdf_bytes,
