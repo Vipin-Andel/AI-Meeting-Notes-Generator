@@ -421,6 +421,7 @@ with layout_col2:
                 "Meeting analytics will appear here after transcription."
             )
 
+st.markdown("---")
 
 # Export and download section
 st.header("3. Download and Save Center")
