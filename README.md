@@ -39,6 +39,10 @@ Transform meeting audio into structured transcripts, AI-powered meeting notes, a
 
 ![Analytics](screenshots/analytics.png)
 
+### Download Centre
+
+![Analytics](screenshots/download.png)
+
 ---
 
 ## 🛠 Tech Stack
