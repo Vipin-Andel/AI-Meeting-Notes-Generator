@@ -41,7 +41,7 @@ Transform meeting audio into structured transcripts, AI-powered meeting notes, a
 
 ### Download Centre
 
-![Analytics](screenshots/download.png)
+![Download](screenshots/download.PNG)
 
 ---
 
