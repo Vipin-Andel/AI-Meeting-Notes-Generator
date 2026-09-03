@@ -1,5 +1,11 @@
 # 🎙️ AI Meeting Notes Generator
 
+<div align="center">
+  <a href="https://codehype.ai/product/ai-meeting-summarizer?utm_source=codehype_badge" target="_blank" rel="noopener noreferrer">
+    <img src="https://codehype.ai/badges/ai-meeting-summarizer.svg?variant=find-us&v=11" alt="Find us on CodeHype" width="380" height="100" loading="lazy" decoding="async" style="display:block;border:0;width:100%;max-width:380px;height:auto;" />
+  </a>
+</div>
+
 Transform meeting audio into structured transcripts, AI-powered meeting notes, actionable insights, analytics, and downloadable reports using OpenAI Whisper and GPT.
 
 ---
